@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "keyhud",
+  "version": "${version}",
+  "name": "Mogged by Liam",
+  "description": "A modular utility client: HUD modules, singleplayer finders, and a click GUI.",
+  "authors": ["Liam"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.keyhud.KeyHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
